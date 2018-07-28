@@ -1,28 +1,24 @@
-.App {
-  text-align: center;
-}
+//colors
+$color_black: #f4f7f8;
+$color_cabin: #212121;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+//fonts
+$font_0: 'Roboto';
+$font_1: 'sans-serif';
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+//urls
+@import 'https://fonts.googleapis.com/css?family=Roboto:400';
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color_black;
+  font-family: $font_0, $font_1;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+  color: $color_cabin;
+  text-rendering: optimizeLegibility;
 }
