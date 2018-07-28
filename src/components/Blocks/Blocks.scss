@@ -1,24 +1,4 @@
-//colors
-$color_black: #f4f7f8;
-$color_cabin: #212121;
-
-//fonts
-$font_0: 'Roboto';
-$font_1: 'sans-serif';
-
-//urls
-@import 'https://fonts.googleapis.com/css?family=Roboto:400';
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: $color_black;
-  font-family: $font_0, $font_1;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.4rem;
-  line-height: 2rem;
-  letter-spacing: 0.01rem;
-  color: $color_cabin;
-  text-rendering: optimizeLegibility;
+.table {
+  table-layout:fixed;
+  word-wrap: break-word;
 }

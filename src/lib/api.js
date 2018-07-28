@@ -24,7 +24,7 @@ const getBlocks = async (numBlocks = 10) => {
         }
         const requests = blocks.map(n => eos.getBlock(n));
         blocks = await Promise.all(requests);
-        return blocks
+        return {headBlock, blocks}
     } catch (err) {
         console.error(err);
         return 'Error getting blocks'
